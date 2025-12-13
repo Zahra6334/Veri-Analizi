@@ -2,20 +2,19 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "d6ed38e3",
+   "id": "ac4ff71b",
    "metadata": {
     "papermill": {
-     "duration": 0.003698,
-     "end_time": "2025-12-13T19:37:28.973558",
+     "duration": 0.005455,
+     "end_time": "2025-12-13T19:53:01.438999",
      "exception": false,
-     "start_time": "2025-12-13T19:37:28.969860",
+     "start_time": "2025-12-13T19:53:01.433544",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
     "# YAPAY ZEKA DERSİNDE ÖĞRENCİ BAŞARISI ANALİZİ \n",
-    "## Veri Madenciliği Final Ödevi\n",
     "### 1. Projenin Amacı\n",
     "Bu çalışmanın amacı, Universiti Teknologi Malaysia (UTM) bünyesinde yürütülen bir **Yapay Zeka (YZ)** dersine katılan öğrencilerin akademik performanslarını etkileyen faktörleri incelemektir. Veri seti üzerinde **Keşifçi Veri Analizi (EDA)** yapılarak; öğrencilerin Quiz, Ödev ve Sınav notları arasındaki ilişkiler ortaya konulacak, eksik veriler kontrol edilecek ve başarı dağılımları görselleştirilecektir.\n",
     "\n",
@@ -26,20 +25,18 @@
     "* **Yayın Tarihi:** 20 Kasım 2025 (Version 2 - Güncel)\n",
     "* **Format:** Tabular (.csv)\n",
     "* **İçerik:** 521öğrenciye ait demografik bilgiler ve notlandırma verileri.\n",
-    "* **Orijinal Link:** [Mendeley Data Linki](https://data.mendeley.com/datasets/vzfyk22fhn/2)\n",
-    "\n",
-    "---"
+    "* **Orijinal Link:** [Mendeley Data Linki](https://data.mendeley.com/datasets/vzfyk22fhn/2)\n"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "21fcdac9",
+   "id": "1a00e5a8",
    "metadata": {
     "papermill": {
-     "duration": 0.002565,
-     "end_time": "2025-12-13T19:37:28.978892",
+     "duration": 0.004216,
+     "end_time": "2025-12-13T19:53:01.447685",
      "exception": false,
-     "start_time": "2025-12-13T19:37:28.976327",
+     "start_time": "2025-12-13T19:53:01.443469",
      "status": "completed"
     },
     "tags": []
@@ -51,19 +48,19 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "453ea933",
+   "id": "866af245",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-12-13T19:37:28.985541Z",
-     "iopub.status.busy": "2025-12-13T19:37:28.985271Z",
-     "iopub.status.idle": "2025-12-13T19:37:32.469575Z",
-     "shell.execute_reply": "2025-12-13T19:37:32.468769Z"
+     "iopub.execute_input": "2025-12-13T19:53:01.458347Z",
+     "iopub.status.busy": "2025-12-13T19:53:01.457409Z",
+     "iopub.status.idle": "2025-12-13T19:53:05.421187Z",
+     "shell.execute_reply": "2025-12-13T19:53:05.419926Z"
     },
     "papermill": {
-     "duration": 3.489601,
-     "end_time": "2025-12-13T19:37:32.471168",
+     "duration": 3.97121,
+     "end_time": "2025-12-13T19:53:05.423101",
      "exception": false,
-     "start_time": "2025-12-13T19:37:28.981567",
+     "start_time": "2025-12-13T19:53:01.451891",
      "status": "completed"
     },
     "tags": []
@@ -232,13 +229,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "7723020e",
+   "id": "162d8ebf",
    "metadata": {
     "papermill": {
-     "duration": 0.002939,
-     "end_time": "2025-12-13T19:37:32.477491",
+     "duration": 0.004648,
+     "end_time": "2025-12-13T19:53:05.432679",
      "exception": false,
-     "start_time": "2025-12-13T19:37:32.474552",
+     "start_time": "2025-12-13T19:53:05.428031",
      "status": "completed"
     },
     "tags": []
@@ -251,19 +248,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "c7b5c57e",
+   "id": "1ef4082d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-12-13T19:37:32.484924Z",
-     "iopub.status.busy": "2025-12-13T19:37:32.484631Z",
-     "iopub.status.idle": "2025-12-13T19:37:32.530407Z",
-     "shell.execute_reply": "2025-12-13T19:37:32.529662Z"
+     "iopub.execute_input": "2025-12-13T19:53:05.443282Z",
+     "iopub.status.busy": "2025-12-13T19:53:05.442952Z",
+     "iopub.status.idle": "2025-12-13T19:53:05.494743Z",
+     "shell.execute_reply": "2025-12-13T19:53:05.493735Z"
     },
     "papermill": {
-     "duration": 0.051084,
-     "end_time": "2025-12-13T19:37:32.531549",
+     "duration": 0.059293,
+     "end_time": "2025-12-13T19:53:05.496538",
      "exception": false,
-     "start_time": "2025-12-13T19:37:32.480465",
+     "start_time": "2025-12-13T19:53:05.437245",
      "status": "completed"
     },
     "tags": []
@@ -483,13 +480,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "7a6d4cb7",
+   "id": "21b3b734",
    "metadata": {
     "papermill": {
-     "duration": 0.003414,
-     "end_time": "2025-12-13T19:37:32.538876",
+     "duration": 0.004888,
+     "end_time": "2025-12-13T19:53:05.506851",
      "exception": false,
-     "start_time": "2025-12-13T19:37:32.535462",
+     "start_time": "2025-12-13T19:53:05.501963",
      "status": "completed"
     },
     "tags": []
@@ -502,19 +499,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "aad5903c",
+   "id": "ff15f3de",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-12-13T19:37:32.546843Z",
-     "iopub.status.busy": "2025-12-13T19:37:32.546592Z",
-     "iopub.status.idle": "2025-12-13T19:37:32.740759Z",
-     "shell.execute_reply": "2025-12-13T19:37:32.739788Z"
+     "iopub.execute_input": "2025-12-13T19:53:05.518847Z",
+     "iopub.status.busy": "2025-12-13T19:53:05.518464Z",
+     "iopub.status.idle": "2025-12-13T19:53:05.780699Z",
+     "shell.execute_reply": "2025-12-13T19:53:05.779279Z"
     },
     "papermill": {
-     "duration": 0.200028,
-     "end_time": "2025-12-13T19:37:32.742255",
+     "duration": 0.270492,
+     "end_time": "2025-12-13T19:53:05.782439",
      "exception": false,
-     "start_time": "2025-12-13T19:37:32.542227",
+     "start_time": "2025-12-13T19:53:05.511947",
      "status": "completed"
     },
     "tags": []
@@ -566,13 +563,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "d4ae7df3",
+   "id": "27c18780",
    "metadata": {
     "papermill": {
-     "duration": 0.003479,
-     "end_time": "2025-12-13T19:37:32.749793",
+     "duration": 0.005797,
+     "end_time": "2025-12-13T19:53:05.794306",
      "exception": false,
-     "start_time": "2025-12-13T19:37:32.746314",
+     "start_time": "2025-12-13T19:53:05.788509",
      "status": "completed"
     },
     "tags": []
@@ -585,19 +582,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "cca8ce80",
+   "id": "005550de",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-12-13T19:37:32.758182Z",
-     "iopub.status.busy": "2025-12-13T19:37:32.757929Z",
-     "iopub.status.idle": "2025-12-13T19:37:32.905327Z",
-     "shell.execute_reply": "2025-12-13T19:37:32.904290Z"
+     "iopub.execute_input": "2025-12-13T19:53:05.807507Z",
+     "iopub.status.busy": "2025-12-13T19:53:05.807185Z",
+     "iopub.status.idle": "2025-12-13T19:53:06.023704Z",
+     "shell.execute_reply": "2025-12-13T19:53:06.022558Z"
     },
     "papermill": {
-     "duration": 0.153378,
-     "end_time": "2025-12-13T19:37:32.906835",
+     "duration": 0.225213,
+     "end_time": "2025-12-13T19:53:06.025273",
      "exception": false,
-     "start_time": "2025-12-13T19:37:32.753457",
+     "start_time": "2025-12-13T19:53:05.800060",
      "status": "completed"
     },
     "tags": []
@@ -630,13 +627,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "cc8710fb",
+   "id": "2e66422a",
    "metadata": {
     "papermill": {
-     "duration": 0.003992,
-     "end_time": "2025-12-13T19:37:32.915463",
+     "duration": 0.006394,
+     "end_time": "2025-12-13T19:53:06.038292",
      "exception": false,
-     "start_time": "2025-12-13T19:37:32.911471",
+     "start_time": "2025-12-13T19:53:06.031898",
      "status": "completed"
     },
     "tags": []
@@ -649,19 +646,19 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "44be7f99",
+   "id": "e724c448",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-12-13T19:37:32.924846Z",
-     "iopub.status.busy": "2025-12-13T19:37:32.924591Z",
-     "iopub.status.idle": "2025-12-13T19:37:33.100101Z",
-     "shell.execute_reply": "2025-12-13T19:37:33.099083Z"
+     "iopub.execute_input": "2025-12-13T19:53:06.052923Z",
+     "iopub.status.busy": "2025-12-13T19:53:06.052118Z",
+     "iopub.status.idle": "2025-12-13T19:53:06.287341Z",
+     "shell.execute_reply": "2025-12-13T19:53:06.286311Z"
     },
     "papermill": {
-     "duration": 0.182011,
-     "end_time": "2025-12-13T19:37:33.101440",
+     "duration": 0.245121,
+     "end_time": "2025-12-13T19:53:06.289751",
      "exception": false,
-     "start_time": "2025-12-13T19:37:32.919429",
+     "start_time": "2025-12-13T19:53:06.044630",
      "status": "completed"
     },
     "tags": []
@@ -705,13 +702,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "39925d58",
+   "id": "15af1634",
    "metadata": {
     "papermill": {
-     "duration": 0.005042,
-     "end_time": "2025-12-13T19:37:33.112113",
+     "duration": 0.008467,
+     "end_time": "2025-12-13T19:53:06.307491",
      "exception": false,
-     "start_time": "2025-12-13T19:37:33.107071",
+     "start_time": "2025-12-13T19:53:06.299024",
      "status": "completed"
     },
     "tags": []
@@ -722,13 +719,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "4ac1e12d",
+   "id": "a1c4fcf5",
    "metadata": {
     "papermill": {
-     "duration": 0.005031,
-     "end_time": "2025-12-13T19:37:33.122204",
+     "duration": 0.008278,
+     "end_time": "2025-12-13T19:53:06.324104",
      "exception": false,
-     "start_time": "2025-12-13T19:37:33.117173",
+     "start_time": "2025-12-13T19:53:06.315826",
      "status": "completed"
     },
     "tags": []
@@ -741,19 +738,19 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "d0a8de04",
+   "id": "26cae798",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-12-13T19:37:33.134176Z",
-     "iopub.status.busy": "2025-12-13T19:37:33.133833Z",
-     "iopub.status.idle": "2025-12-13T19:37:33.464698Z",
-     "shell.execute_reply": "2025-12-13T19:37:33.463739Z"
+     "iopub.execute_input": "2025-12-13T19:53:06.342078Z",
+     "iopub.status.busy": "2025-12-13T19:53:06.341777Z",
+     "iopub.status.idle": "2025-12-13T19:53:06.821013Z",
+     "shell.execute_reply": "2025-12-13T19:53:06.819946Z"
     },
     "papermill": {
-     "duration": 0.338691,
-     "end_time": "2025-12-13T19:37:33.466092",
+     "duration": 0.49087,
+     "end_time": "2025-12-13T19:53:06.823131",
      "exception": false,
-     "start_time": "2025-12-13T19:37:33.127401",
+     "start_time": "2025-12-13T19:53:06.332261",
      "status": "completed"
     },
     "tags": []
@@ -784,13 +781,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "fb35f91e",
+   "id": "46cfd4d4",
    "metadata": {
     "papermill": {
-     "duration": 0.006545,
-     "end_time": "2025-12-13T19:37:33.480249",
+     "duration": 0.011208,
+     "end_time": "2025-12-13T19:53:06.846682",
      "exception": false,
-     "start_time": "2025-12-13T19:37:33.473704",
+     "start_time": "2025-12-13T19:53:06.835474",
      "status": "completed"
     },
     "tags": []
@@ -804,13 +801,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "f296d6e8",
+   "id": "17477cc3",
    "metadata": {
     "papermill": {
-     "duration": 0.006474,
-     "end_time": "2025-12-13T19:37:33.493180",
+     "duration": 0.010086,
+     "end_time": "2025-12-13T19:53:06.867068",
      "exception": false,
-     "start_time": "2025-12-13T19:37:33.486706",
+     "start_time": "2025-12-13T19:53:06.856982",
      "status": "completed"
     },
     "tags": []
@@ -824,19 +821,19 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "5d5e3823",
+   "id": "259a4e4f",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-12-13T19:37:33.508075Z",
-     "iopub.status.busy": "2025-12-13T19:37:33.507777Z",
-     "iopub.status.idle": "2025-12-13T19:37:35.388058Z",
-     "shell.execute_reply": "2025-12-13T19:37:35.387306Z"
+     "iopub.execute_input": "2025-12-13T19:53:06.890765Z",
+     "iopub.status.busy": "2025-12-13T19:53:06.890406Z",
+     "iopub.status.idle": "2025-12-13T19:53:09.676719Z",
+     "shell.execute_reply": "2025-12-13T19:53:09.675518Z"
     },
     "papermill": {
-     "duration": 1.889763,
-     "end_time": "2025-12-13T19:37:35.389461",
+     "duration": 2.801868,
+     "end_time": "2025-12-13T19:53:09.680072",
      "exception": false,
-     "start_time": "2025-12-13T19:37:33.499698",
+     "start_time": "2025-12-13T19:53:06.878204",
      "status": "completed"
     },
     "tags": []
@@ -874,13 +871,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "b070ad58",
+   "id": "a1085e0a",
    "metadata": {
     "papermill": {
-     "duration": 0.009129,
-     "end_time": "2025-12-13T19:37:35.408165",
+     "duration": 0.014299,
+     "end_time": "2025-12-13T19:53:09.709084",
      "exception": false,
-     "start_time": "2025-12-13T19:37:35.399036",
+     "start_time": "2025-12-13T19:53:09.694785",
      "status": "completed"
     },
     "tags": []
@@ -895,13 +892,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "87e7a978",
+   "id": "f8bdca91",
    "metadata": {
     "papermill": {
-     "duration": 0.008713,
-     "end_time": "2025-12-13T19:37:35.426008",
+     "duration": 0.013532,
+     "end_time": "2025-12-13T19:53:09.736247",
      "exception": false,
-     "start_time": "2025-12-13T19:37:35.417295",
+     "start_time": "2025-12-13T19:53:09.722715",
      "status": "completed"
     },
     "tags": []
@@ -919,19 +916,19 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "6f7c8e85",
+   "id": "7accd796",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-12-13T19:37:35.444936Z",
-     "iopub.status.busy": "2025-12-13T19:37:35.444629Z",
-     "iopub.status.idle": "2025-12-13T19:37:35.678778Z",
-     "shell.execute_reply": "2025-12-13T19:37:35.677838Z"
+     "iopub.execute_input": "2025-12-13T19:53:09.764775Z",
+     "iopub.status.busy": "2025-12-13T19:53:09.764330Z",
+     "iopub.status.idle": "2025-12-13T19:53:10.120298Z",
+     "shell.execute_reply": "2025-12-13T19:53:10.119316Z"
     },
     "papermill": {
-     "duration": 0.245872,
-     "end_time": "2025-12-13T19:37:35.680498",
+     "duration": 0.372574,
+     "end_time": "2025-12-13T19:53:10.122297",
      "exception": false,
-     "start_time": "2025-12-13T19:37:35.434626",
+     "start_time": "2025-12-13T19:53:09.749723",
      "status": "completed"
     },
     "tags": []
@@ -973,13 +970,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "51609240",
+   "id": "0131aa8f",
    "metadata": {
     "papermill": {
-     "duration": 0.010932,
-     "end_time": "2025-12-13T19:37:35.702570",
+     "duration": 0.016202,
+     "end_time": "2025-12-13T19:53:10.155495",
      "exception": false,
-     "start_time": "2025-12-13T19:37:35.691638",
+     "start_time": "2025-12-13T19:53:10.139293",
      "status": "completed"
     },
     "tags": []
@@ -993,13 +990,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "0580ef78",
+   "id": "f930e9f3",
    "metadata": {
     "papermill": {
-     "duration": 0.009944,
-     "end_time": "2025-12-13T19:37:35.722952",
+     "duration": 0.016198,
+     "end_time": "2025-12-13T19:53:10.187519",
      "exception": false,
-     "start_time": "2025-12-13T19:37:35.713008",
+     "start_time": "2025-12-13T19:53:10.171321",
      "status": "completed"
     },
     "tags": []
@@ -1015,19 +1012,19 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "eaca3811",
+   "id": "01195900",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-12-13T19:37:35.745359Z",
-     "iopub.status.busy": "2025-12-13T19:37:35.745068Z",
-     "iopub.status.idle": "2025-12-13T19:37:36.073646Z",
-     "shell.execute_reply": "2025-12-13T19:37:36.072613Z"
+     "iopub.execute_input": "2025-12-13T19:53:10.221423Z",
+     "iopub.status.busy": "2025-12-13T19:53:10.220530Z",
+     "iopub.status.idle": "2025-12-13T19:53:10.619207Z",
+     "shell.execute_reply": "2025-12-13T19:53:10.618279Z"
     },
     "papermill": {
-     "duration": 0.341611,
-     "end_time": "2025-12-13T19:37:36.075283",
+     "duration": 0.417391,
+     "end_time": "2025-12-13T19:53:10.620744",
      "exception": false,
-     "start_time": "2025-12-13T19:37:35.733672",
+     "start_time": "2025-12-13T19:53:10.203353",
      "status": "completed"
     },
     "tags": []
@@ -1074,13 +1071,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "e529d5f8",
+   "id": "95b314dc",
    "metadata": {
     "papermill": {
-     "duration": 0.010822,
-     "end_time": "2025-12-13T19:37:36.099121",
+     "duration": 0.017411,
+     "end_time": "2025-12-13T19:53:10.656361",
      "exception": false,
-     "start_time": "2025-12-13T19:37:36.088299",
+     "start_time": "2025-12-13T19:53:10.638950",
      "status": "completed"
     },
     "tags": []
@@ -1092,22 +1089,22 @@
   },
   {
    "cell_type": "markdown",
-   "id": "e0b9770f",
+   "id": "3975d763",
    "metadata": {
     "papermill": {
-     "duration": 0.01039,
-     "end_time": "2025-12-13T19:37:36.119960",
+     "duration": 0.017493,
+     "end_time": "2025-12-13T19:53:10.690905",
      "exception": false,
-     "start_time": "2025-12-13T19:37:36.109570",
+     "start_time": "2025-12-13T19:53:10.673412",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
     "## 10. Sonuç ve Değerlendirme\n",
-    "Bu çalışmada, Universiti Teknologi Malaysia (UTM) kaynaklı \"Student Performance Dataset in AI Course\" veri seti üzerinde kapsamlı bir Keşifçi Veri Analizi (EDA) gerçekleştirilmiştir. 521 öğrenciye ait veriler; eksik veri analizi, korelasyon incelemesi ve başarı dağılımı görselleştirmeleri ile irdelenmiş ve aşağıdaki temel sonuçlara ulaşılmıştır:\n",
+    "Bu çalışmada, Universiti Teknologi Malaysia (UTM) kaynaklı \"ai_öğrenci_performansı\" veri seti üzerinde kapsamlı bir Keşifçi Veri Analizi (EDA) gerçekleştirilmiştir. 520 öğrenciye ait veriler; eksik veri analizi, korelasyon incelemesi ve başarı dağılımı görselleştirmeleri ile irdelenmiş ve aşağıdaki temel sonuçlara ulaşılmıştır:\n",
     "\n",
-    "**1.Veri Yapısı ve Bütünlüğü:** Veri seti 521 satır ve ilişkili özniteliklerden oluşmaktadır. Yapılan isnull() kontrolü ve ısı haritası (heatmap) incelemesi sonucunda veri setinin temiz olduğu ve eksik veri (missing value) içermediği doğrulanmıştır. Bu durum, analizin güvenilirliğini artırmaktadır.\n",
+    "**1.Veri Yapısı ve Bütünlüğü:** Veri seti 520 satır ve ilişkili özniteliklerden oluşmaktadır. Yapılan isnull() kontrolü ve ısı haritası (heatmap) incelemesi sonucunda veri setinin temiz olduğu ve eksik veri (missing value) içermediği doğrulanmıştır. Bu durum, analizin güvenilirliğini artırmaktadır.\n",
     "\n",
     "**2. Başarı Faktörlerinin İlişkisi (Korelasyon Analizi):** Değişkenler arasındaki ilişkiyi gösteren Korelasyon Matrisi incelendiğinde;\n",
     "\n",
@@ -1117,15 +1114,16 @@
     "\n",
     "Quiz ve ödevlerin başarı ile korelasyonu pozitif olmakla birlikte, sınavlar kadar belirleyici olmadığı saptanmıştır.\n",
     "\n",
-    "*3.* **Ders Bileşenlerinin Zorluk Dereceleri**(Normalizasyon Analizi)**:****Tüm puan türlerinin 100'lük sisteme normalize edilerek karşılaştırıldığı Boxplot analizi çarpıcı bir bulguyu ortaya koymuştur:\n",
+    "*3.* **Ders Bileşenlerinin Zorluk Dereceleri**(Normalizasyon Analizi)*:**Tüm puan türlerinin 100'lük sisteme normalize edilerek karşılaştırıldığı Boxplot analizi çarpıcı bir bulguyu ortaya koymuştur:\n",
     "\n",
     "Öğrenciler Ödev, Sunum ve Proje gibi süreç odaklı çalışmalarda daha yüksek puan ortalamalarına sahiptir.\n",
     "\n",
     "En düşük başarı ortalaması ve en yüksek varyans (değişkenlik) Final Sınavı bileşeninde görülmüştür. Bu durum, dersin en zorlayıcı kısmının teorik sınavlar olduğunu göstermektedir.\n",
     "\n",
-    "**4. Başarı Geri Dönüşü (Resilience Analysis):** Veri madenciliği teknikleri kullanılarak yapılan özel sorgulamada; vize sınavında sınıf ortalamasının veya barajın altında (Midterm < 7.5) kalmasına rağmen dersi geçmeyi başaran bir öğrenci grubu (\"Savaşçılar\") tespit edilmiştir. Bu bulgu, dönem başında başarısız olan öğrencilerin, final ve proje performanslarını artırarak dersi başarıyla tamamlayabildiklerini kanıtlamaktadır.\n",
+    "**4. Başarı Geri Dönüşü (Resilience Analysis):** vize sınavında sınıf ortalamasının veya barajın altında (Midterm < 7.5) kalmasına rağmen dersi geçmeyi başaran bir öğrenci grubu (\"Savaşçılar\") tespit edilmiştir. Bu bulgu, dönem başında başarısız olan öğrencilerin, final ve proje performanslarını artırarak dersi başarıyla tamamlayabildiklerini kanıtlamaktadır.\n",
     "\n",
-    "Genel Değerlendirme: Analiz sonuçları, Yapay Zeka dersinde öğrencilerin pratik uygulamalarda (proje/ödev) teorik sınavlara göre daha yetkin olduğunu göstermektedir. Gelecek dönemlerde başarıyı artırmak adına, vize sınavı düşük olan öğrencilere yönelik erken uyarı sistemleri geliştirilmeli ve teorik kavramların pekiştirilmesine ağırlık verilmelidir."
+    "Genel Değerlendirme: Analiz sonuçları, Yapay Zeka dersinde öğrencilerin pratik uygulamalarda (proje/ödev) teorik sınavlara göre daha yetkin olduğunu göstermektedir. \n",
+    "Gelecek dönemlerde başarıyı artırmak adına, vize sınavı düşük olan öğrencilere yönelik erken uyarı sistemleri geliştirilmeli ve teorik kavramların pekiştirilmesine ağırlık verilmelidir."
    ]
   }
  ],
@@ -1164,14 +1162,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 11.919921,
-   "end_time": "2025-12-13T19:37:36.850340",
+   "duration": 14.98033,
+   "end_time": "2025-12-13T19:53:11.328241",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2025-12-13T19:37:24.930419",
+   "start_time": "2025-12-13T19:52:56.347911",
    "version": "2.6.0"
   }
  },
